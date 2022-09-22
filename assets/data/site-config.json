@@ -1,0 +1,6 @@
+{
+    "prod_uri": "https://keystonepreview.netlify.app",
+    "dev_uri": "http://localhost:3000",
+    "prod_wp_uri": "https://cms.keystonetech.com",
+    "dev_wp_uri": "http://keystone.loc"
+}

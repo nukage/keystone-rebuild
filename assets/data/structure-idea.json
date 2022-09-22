@@ -1,0 +1,39 @@
+[
+    {
+        "name": "light sources",
+        "ids": [
+            343,
+            3535,
+            353,
+            776,
+            686,
+        ],
+        "children": [
+            {
+                "name": "HID LED Lamps",
+                "ids":[
+                    533,
+                    5353,
+                    131,
+                    53
+                ],
+                "children": [
+                    {
+                        "name": "direct drive",
+                        "ids": [
+
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "LED Tubes",
+                "ids": [
+                    22,
+                    454,
+                    245
+                ]
+            }
+        ]
+    },
+]

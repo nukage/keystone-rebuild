@@ -1,0 +1,35 @@
+
+@media (min-width: 768px){
+    .alignleft:not(.wp-block-button){
+      margin-right: 0.125rem;
+    }
+  
+    .alignleft:not(.wp-block-button){
+      float: left;
+    }
+  
+    .alignright:not(.wp-block-button){
+      margin-left: 0.125rem;
+    }
+  
+    .alignright:not(.wp-block-button){
+      float: right;
+    }
+  
+    .wp-block-button.alignleft a{
+      float: left;
+    }
+  
+    .wp-block-button.alignleft a{
+      margin-right: 0.25rem;
+    }
+  
+    .wp-block-button.alignright a{
+      float: right;
+    }
+  
+    .wp-block-button.alignright a{
+      margin-left: 0.25rem;
+    }
+  }
+  

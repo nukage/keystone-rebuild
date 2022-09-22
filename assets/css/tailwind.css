@@ -1,0 +1,817 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "./components.css";
+@import "tailwindcss/utilities";
+@import "blocks.css"; 
+/* @import "../../public/fontawesome-free-6.1.1-web/css/all.css"; */
+ 
+
+
+
+ /* ************************** NAV ****************************** */
+.mainNav{
+    @apply w-full z-30 fixed bg-white overflow-visible hidden md:block ;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+    &__overlay{
+        @apply  h-screen opacity-[15%] bg-black absolute   top-[125px] left-0 right-0 w-screen  ;
+        z-index:-1;
+    }
+    &__push{
+        @apply h-[88px]
+    }
+    &__inner{
+        @apply transition-all duration-300;
+        /* @apply grid py-15 px-25 items-center;
+        grid-template-columns: 180px minmax(400px, 500px) minmax(auto, 100px) minmax(200px, auto) 130px; */
+        @apply flex py-15 px-25 items-center transition-all duration-300;
+        > div {
+            @apply duration-300;
+        }
+        .logo  a{
+            @apply w-[180px] text-center block mx-auto h-14 transition-all duration-300;
+            img{
+                @apply transition-all duration-300 h-full mx-auto;
+            }
+        }
+        .slim & {
+            @apply py-[4px];
+            .logo a{
+                @apply h-10 ;
+            }
+        }
+    }
+    &__nav{
+        @apply ml-75 flex font-700 text-20 font-cond overflow-hidden h-[50px]  ;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        > li{
+            @apply ml-40 border-r border-solid border-gray-200 py-10 my-10;
+            span{
+                @apply font-primary font-700 relative  px-5; 
+            
+            }
+        }
+        > li:last-of-type{
+            @apply border-none;
+        }
+        &__viewAllLink{
+            @apply absolute bottom-[20px] left-[60px] text-primary text-20 font-700 hover:underline;
+        }
+        &__item{
+             @apply flex uppercase cursor-pointer px-10  ;
+             @apply border-r border-gray-400 border-opacity-25;
+             > .plusMinus {
+                 @apply font-900 text-24 relative top-[-3px] right-1 pl-10 leading-50   ;
+             }
+             &__textLink {
+                @apply relative px-10 leading-50  ;
+             } 
+             &__underline {
+                @apply absolute  left-0 text-center w-full flex justify-center;
+             }
+        }
+        &__submenu {
+            @apply pr-5 cursor-auto;
+            > a {
+                @apply pl-20 normal-case relative leading-50   cursor-pointer;
+                &.open{
+                    @apply text-primary;
+                }
+            }
+            &__l2{
+                @apply font-cond  normal-case  flex  mx-auto container xl:max-w-[1600px]  flex-wrap relative min-h-[200px];
+                .lgText{
+                    @apply text-18 leading-normal;
+                }
+                &__link{
+                    @apply uppercase font-900 text-18 border-b-2 border-primary  leading-[18px] pb-[4px] mb-15 h-[56px] flex flex-col justify-end w-full hover:text-primary;
+                }
+                > li  {
+                    @apply max-w-[300px] flex-1  pb-75 pt-25 px-20 list-none;
+                    &.grayBg{
+                        @apply bg-[#f2f2f2];
+                    }
+                    > a {
+                      
+                    }
+                }
+                &__wrapper{
+                    @apply transition-all duration-300 w-screen bg-white top-[84px] absolute left-0 z-10 shadow;
+                    .slim & {
+                        @apply top-[60px];
+                    }
+                }
+            }
+            &__l3{
+                @apply font-300 hover:text-primary;
+            }
+        }
+    }
+    &__searchForm{
+        @apply flex-grow border-gray-200   pl-25 relative;
+        label{
+            @apply absolute left-[40px] top-[15px] text-primary font-300 text-14;
+            .searchIcon{
+                @apply float-left w-[23px] mr-[18px];
+            }
+        }
+        input{
+            @apply w-full h-[50px] rounded-md;
+        }
+    }
+    &__login{
+        @apply uppercase text-primary font-500 font-cond ml-20 pl-20 text-14;
+        @apply border-gray-200 border-l border-solid py-15;
+        svg{
+            @apply fill-primary float-left mr-15 ;
+        }
+    }
+    &__nav__submenu{
+        @apply  bg-white text-14;
+        > li {
+            @apply p-0 my-10 mx-10;
+        }
+        > li > a {
+            @apply font-300 leading-normal transition-02 hover:text-primary;
+
+        }
+    }
+}
+
+
+
+ /* ************************** FOOTER ****************************** */
+footer{
+    @apply bg-black;
+
+.footerTop{
+    @apply xs:grid   text-white pt-45 pb-20 mx-auto;
+    max-width: 1280px;
+    grid-template-columns: 58% 42%;
+    h3{
+        @apply uppercase font-700 mb-15 font-cond text-24;
+    }
+    .mail {
+    }
+    &__colOne{   
+        @apply font-cond;
+        &__iconlinks{
+            @apply mb-55  ;
+            a{
+                @apply block text-18;
+            }
+            svg{
+                @apply   mr-15 relative ;
+            }
+        }     
+        font-size: 18px;
+        font-weight: 400;
+        i{
+            @apply text-22 mx-10 transition-all duration-300;
+            &:hover{
+                @apply text-gray-300;
+            }
+        }
+        svg{
+            @apply w-[20px]  fill-white inline ;
+        }
+        h4{
+            @apply font-700 text-21;
+        }
+        h4 svg{
+            @apply ml-5;
+        }
+    }
+    &__colTwo{
+        &__btn{
+            @apply button-primary mt-30 px-30;
+        }
+    }
+}
+
+.footerBottom{
+    @apply mx-auto text-white border-t-4 border-solid border-white pt-35 pb-100;
+    @apply font-cond  text-18 leading-30;
+    max-width: 1280px;
+    &__logo{
+        @apply mb-25 mx-auto;
+    }
+    &__grid{
+        @apply grid  gap-4 lg:gap-1 text-center xs:text-left;
+        grid-template-columns: 1fr;
+        @screen xs{
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        @screen sm{
+
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+        @screen md{
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        }
+        >div:first-of-type{
+            @apply xs:row-start-2 md:row-start-1;
+        }
+    }
+    h3{
+        @apply font-cond uppercase mt-10 mb-15;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    a{
+      @apply block;
+    }
+}
+
+}
+
+ /* ************************** HOMEPAGE ****************************** */
+ .homeHero {
+    @apply grid pb-20;
+    grid-template-columns: 40% 60%;
+    &__colOne{
+        @apply ml-100 mt-100;
+        h2{
+            @apply mb-20;
+            font-size: 80px;
+            font-weight: 300;
+        }
+        h3{
+            @apply text-32 font-200 mb-45;
+        }
+    }
+
+    &__button{
+        @apply text-primary border border-black border-solid font-700 text-21 w-[205px] py-[8px] block text-center;
+    }
+    &__colTwo{
+        @apply text-right;
+        img{
+            @apply ml-auto;
+        }
+    }
+}
+.homeCategories{
+     ul {
+        @apply grid grid-cols-4  gap-1;
+        > li {
+            @apply bg-black text-white uppercase text-center text-50 font-700 leading-40 font-cond py-100;
+        }
+    }
+}
+.homeCards{
+    @apply mt-20;
+    &__grid{
+        @apply grid grid-cols-3 gap-4;
+    }
+ 
+    &__item{
+        &__content{
+            @apply border-light-gray border border-solid bg-white mx-20 px-30 pt-20 pb-20 mt-[-30px] relative;
+            &__headline{
+                
+                @apply text-center text-30 font-700 relative font-cond; 
+                &__underline{
+                    @apply mx-auto mb-20;
+                }
+        }
+        p{
+            @apply mb-30;
+        }
+        &__link{
+            @apply text-primary font-cond underline hover:no-underline ; 
+        }
+    }
+}
+}
+
+.homeVideo{
+    @apply grid pt-80;
+    grid-template-columns: 57% 43%;
+    &__colOne{
+        background: url('~/assets/images/home-video.png');
+        @apply bg-cover bg-no-repeat bg-center flex flex-col text-white justify-center items-center bg-opacity-40 bg-black;
+        img{
+            @apply cursor-pointer;
+        }
+        font-size: 20px;
+
+    }
+    &__colTwo{
+        @apply text-white p-100 pt-[120px];
+        background-color: black;
+        img{
+            @apply mb-20
+        }
+        h3{
+            @apply font-cond max-w-[400px] mb-20 font-300;
+            font-size: 30px;
+        }
+        p{
+            @apply max-w-[400px] mb-40;
+            font-size: 21px;
+            letter-spacing: 0.45px;
+        }
+        &__btn{
+            @apply button-primary px-30;
+        }
+    }
+}
+
+.homeLogoBar{
+    &__grid{
+        @apply flex pt-90 pb-60 justify-between mx-auto;
+ 
+        max-width:1360px;
+    }
+
+    h3{
+        @apply text-30 font-900 font-cond;
+        font-size: 30px;
+        letter-spacing: 0.65px;
+        line-height: 32px;
+        img{
+            @apply mt-10 ;
+        }
+        
+
+    }
+}
+
+
+ /* ************************** INTERIORS ****************************** */
+
+
+ .breadcrumb{
+    @apply font-cond mb-10;
+    color: #777777;
+    font-size: 21px;
+    &.mt-var {
+        @apply mt-30;
+    }
+ 
+}
+
+ /* ************************** CONTACT PAGE  ****************************** */
+
+
+ .contactSection{
+    @apply grid gap-[110px] border-[#3c3c3c] border-b-2 border-solid pb-55;
+    grid-template-columns: 68% 32%;
+    
+    
+    &__form{
+        @apply mt-60;
+        &__grid{
+            @apply grid grid-cols-2 gap-6;
+
+        }
+        &__item{
+        }
+        /* label{
+            @apply block font-700 text-24 font-cond mb-5;
+        } */
+        /* input[type='text']{
+            @apply w-full h-[50px] border border-solid border-[#979797];
+        } */
+        /* textarea{
+            @apply w-full h-[225px] text-18 mb-5 p-20;
+        } */
+        /* button{
+            @apply button-primary px-90 font-cond font-900 text-18;
+        } */
+        &__bottom{
+            @apply mt-20;
+        }
+    }
+    .colTwo{
+        @apply font-cond;
+        h4{
+            @apply text-30 font-cond font-700 mb-30 relative;
+            &:after{
+                @apply absolute bg-primary;
+                content: ' ';
+                width:100px;
+                height:2px;
+                bottom:-10px;
+                left:0;
+            } 
+            
+            
+        }
+        h5{
+            @apply text-28 font-700 mb-10 ;
+        } 
+        p{
+            @apply text-24 leading-30 mb-15;
+        }
+
+    }
+ }
+
+ .contactLinks{
+    @apply mt-60 mb-100;
+    &__grid{
+        @apply grid grid-cols-3 justify-between px-60;
+        gap:15%;
+    }
+    h3{
+        @apply text-30 font-700 font-cond text-center mb-10;
+    }
+    .underlines{
+        @apply mx-auto block mb-20;
+    }
+    p{
+        @apply text-18 leading-22 mb-20 h-[110px];
+        letter-spacing: 0.39px;
+    }
+    &__item__btn{
+        @apply bg-white text-primary block border border-black border-solid text-center py-10 text-18 font-700;
+        border-radius:2px;
+        img{
+            @apply relative left-3;
+            @apply w-[8px] inline;
+        }
+        &:nth-child(2){
+            @apply bg-primary text-white;
+        }
+    }
+    .contactLinks__item:nth-of-type(2) .contactLinks__item__btn{
+        @apply bg-primary text-white border-primary;
+        img{
+            filter: brightness(900%);
+
+        }
+
+    }
+ 
+ }
+
+  /* ************************** SUPPORT & RESOURCES PAGE  ****************************** */
+
+.supportResourcesSection{
+    
+    &__grid{
+        @apply grid grid-cols-4 gap-4 mt-30 mb-30;
+    }
+    &__item{
+        @apply col-span-1 text-center flex flex-col justify-around items-center p-20 pb-10;
+        background-color: #f2f2f2;
+        border: 3px solid #dedede;
+        img{
+            @apply h-10 mb-[6px];
+        }
+        h4{
+            @apply text-28 font-700 font-cond mb-[17px];
+        }
+        p{
+            line-height: 22px;
+        }
+  
+
+        &__learnMore{
+            @apply button-primary w-full;
+        }
+    }
+    &__warranty{
+        @apply col-span-4 px-25 pt-10 grid grid-cols-3 pb-25   ;
+        border: 3px solid #dedede;
+        background-color: #f2f2f2;
+        h3{
+            @apply col-span-3 text-28 font-700 font-cond tracking-[0.6px] relative border-solid border-primary border-b-2 pb-15 mb-15;
+            img{
+                @apply float-left pr-[18px] pt-[8px];
+            }
+        } 
+        a{
+            @apply text-22 font-cond tracking-[.47px] underline text-primary font-700;
+        }
+    }
+}
+
+ 
+
+ /* ************************** REQUEST FREE SAMPLE SECTION ****************************** */
+ 
+ 
+ 
+ 
+ /* ************************** POSTS INDEX ****************************** */
+
+
+ .posts{
+    @apply pt-50 max-w-[1320px];
+    &__grid{
+        @apply grid;
+        grid-template-columns: minmax(  auto, 865px) minmax(auto, 305px);
+        gap: 107px;
+
+
+
+        &__pagi{
+            @apply flex text-24 gap-4 text-gray-500 justify-center mb-100;
+            a{
+                @apply text-black;
+            }
+        }
+    }
+
+    h2{
+        @apply font-cond font-700 text-36 mb-30;
+    }
+    date{
+        @apply text-18 font-400 font-cond mb-20 block;
+        color: #777777;
+    }
+
+    .newsCardBig{
+        @apply border-solid border-2 border-light-gray mb-35;
+        &__content{
+            @apply p-30;
+        }
+        &__title{
+            @apply text-30 font-700 font-cond mb-[12px];
+        }
+
+        &__excerpt{
+            @apply text-18 font-400 leading-22 mb-10;
+        }
+    }
+    .newsCardsSmall{
+        @apply grid grid-cols-2 gap-4 pb-50;
+        .newsCardSmall{
+            @apply border-solid border-2 border-light-gray;
+            &__content{
+                @apply px-30 py-45;
+            }
+
+            &__title{
+                @apply text-24 font-700 font-cond  mb-[17px] leading-24; 
+            }
+            &__date{
+                @apply text-18 font-400 font-cond mb-[16px] block;
+                color: #777777;
+            }
+            &__excerpt{
+                @apply text-18 font-400 leading-22;
+            }
+        }
+    }
+
+    .postsSidebar{
+        @apply pt-[50px] font-cond;
+        h3 { @apply font-cond mb-8;
+            font-size: 21px;
+            font-weight: 700;
+        }
+        h3.underlines{
+            @apply border-b-2 border-solid border-primary pb-10;
+        }
+        &__forms{
+            form{
+                @apply relative mb-30 w-full;
+            }
+            label {
+                @apply absolute top-3;
+                img{
+                    @apply float-left w-[20px] mx-15 relative top-1;
+                }
+    
+            }
+        }
+        input{
+            @apply w-full;
+            height: 50px;
+            border-radius: 2px;
+            border: 1px solid #ebebeb;
+            background-color: #f2f2f2;
+        }
+
+        &__featuredPosts{
+            h3{
+                @apply mb-20;
+            }
+            &__postTitle{
+                @apply text-18 font-700 leading-24 mb-[6px];
+            }
+            &__postDate{
+                @apply mb-[22px] block;
+            }
+        }
+        &__followUs{
+            &__links{
+               @apply flex mt-20;
+                &__link{
+                    @apply mr-[32px];
+                    img{
+                        @apply w-[22px];
+                    }
+                    i{
+                        @apply text-primary text-24 transition-all duration-300;
+                    }
+                    &:hover i{
+                        @apply text-gray-300;
+                    }
+                }
+            }
+        }
+    }
+ }
+
+ .singlePost{
+    .postDate{  
+
+        @apply mb-40 font-cond text-18 ;
+    }
+
+     @apply pb-100;
+      .breadcrumb {
+        @apply mb-5
+      }
+    .postTitle{
+        @apply font-cond font-700 text-36 mb-10;
+    }
+    date{
+        @apply mb-30;
+    }
+    img{
+        @apply mb-30;
+    }
+    h3, h4 {
+        @apply font-cond mb-15;
+    }
+    h2{
+        @apply font-cond text-28 mb-15;
+    }
+    p{
+        @apply text-18 leading-22 mb-20; 
+    }
+    p + img{
+        @apply mt-45;
+    }
+
+    h3{
+        @apply text-24 font-700 ;
+    }
+    h4{
+        @apply text-20 font-700;
+    }
+    ul, ol {
+        @apply text-18 mb-40 mt-25;
+
+    }
+    ul li::before{
+        @apply  left-0 absolute;
+        content: "• ";
+    }
+    li{
+        @apply mb-10  text-18 leading-24 pl-30 relative;
+    }
+
+    ol li{
+        counter-increment: step-counter;
+    }
+    ol li::before {
+        @apply  left-0 absolute;
+        content: counter(step-counter) ".";
+ 
+  
+    }
+
+    blockquote{
+        @apply relative mt-45 mr-20 mb-80;
+        &::before{
+            @apply border-primary border-t-2 border-r-2   absolute  ;
+            content: ' ';
+            width:100%;
+            height:110px;
+            border-radius: 0 20px 0 0  ; 
+        }
+        &::after{
+            @apply border-primary border-b-2 border-l-2 left-0 bottom-[-35px]   absolute  ;
+            content: ' ';
+            width:100%;
+            height:110px;
+            border-radius: 0 0  0 20px; 
+        }
+        p{
+            @apply text-36 font-700 font-cond pt-35 px-40 leading-40;
+        }
+        cite{
+            @apply ml-40 font-700 text-20 mb-40;
+        }
+    }
+
+ }
+
+
+
+  /* ************************** FOOTER ****************************** */
+
+  .caseStudies{
+    @apply mb-100;
+    h1{
+        @apply text-36 font-700 font-cond mb-30;
+    }
+    &__grid{
+        @apply grid-cols-3 grid gap-x-4 gap-y-10;
+    }
+    &__post{
+        border: 2px solid #d8d8d8;
+        &__bigPost{
+            border: 2px solid #d8d8d8;
+            @apply col-span-3 grid grid-cols-2 min-h-[465px];
+            
+            &__image{
+                img{
+                    @apply h-full bg-cover; 
+                }
+
+            }
+            &__content{
+                @apply px-60 flex flex-col justify-center;
+                &__title{
+                    @apply text-30;
+                }
+                &__link{
+                    @apply font-cond text-primary underline hover:no-underline inline-block;
+                }
+            }
+        }
+
+        &__image{
+            img{
+                @apply mb-35;
+            }
+        }
+    &__content{
+        @apply  px-25 pb-25 ;
+        &__title{
+            @apply text-center w-full block text-24 font-700 font-cond leading-22 mb-10;
+            &__underline{
+                @apply mx-auto mb-20;
+            }
+        }
+        &__excerpt{
+            @apply text-16 h-[70px] overflow-hidden;
+        }
+        &__link{
+            @apply font-cond text-primary underline hover:no-underline inline-block;
+        }
+    }
+    }
+  }
+
+  .products{
+    &__mainTitle{
+        @apply text-36;
+    }
+    &__main {
+        @apply  col-span-9 font-cond;
+        &__l3{
+            @apply grid grid-cols-3 mb-40 gap-4; 
+        }
+        &__l4__img{
+            @apply mb-20;
+        }
+        &__title__l2{
+            @apply font-cond font-700 text-34 mb-20;
+        }
+        &__title__l3{
+            @apply font-cond font-700 text-28 border-b-2 border-[#777] pb-[10px] col-span-3;
+        }
+        &__title__l4{
+            @apply font-cond font-700 text-20 mb-10;
+        }
+        &__l4{
+         
+        }
+        &__content__l4{
+            @apply text-14  font-primary leading-18 mb-10;
+        }
+        &__title__l4__link{
+            @apply font-cond text-primary underline text-18 font-700 hover:no-underline;
+
+        }
+    }
+    
+    &__sidebar{
+        @apply col-span-3 pr-70 relative;
+        &__sticky{
+            @apply sticky top-[100px];
+        }
+        &__title__l1{
+            @apply text-24 font-cond font-700 border-b-2 border-primary block;
+
+        }
+        &__l2{
+            @apply mb-15;
+        }
+        &__title__l2{
+            @apply mb-10 text-21 font-700 font-cond hover:text-primary; 
+        }
+        &__title__l3{
+            @apply pl-20 hover:text-primary font-cond text-[19px] leading-28;
+        }
+    }
+  }

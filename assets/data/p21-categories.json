@@ -1,0 +1,629 @@
+[{
+    "item_category_uid": "527",
+    "ITEM_category_id": "LAMPS OEM",
+    "item_category_desc": "Lamps",
+    "parent_item_category_uid": "4",
+    "sequence_no": "4",
+    "display_on_web_flag": "Y",
+    "children": [{
+        "item_category_uid": "538",
+        "ITEM_category_id": "ULTRAVIOLET GERMICIDAL OEM V2",
+        "item_category_desc": "Ultraviolet Germicidal",
+        "parent_item_category_uid": "527",
+        "sequence_no": "1",
+        "display_on_web_flag": "Y",
+        "children": [{
+            "item_category_uid": "566",
+            "ITEM_category_id": "LAMPS OEM V2",
+            "item_category_desc": "Lamps",
+            "parent_item_category_uid": "538",
+            "sequence_no": "1",
+            "display_on_web_flag": "Y",
+            "children": [{
+                "item_category_uid": "595",
+                "ITEM_category_id": "LINEAR & COMPACT OEM",
+                "item_category_desc": "Linear & Compact",
+                "parent_item_category_uid": "566",
+                "sequence_no": "1",
+                "display_on_web_flag": "Y"
+            }]
+        }]
+    }, {
+        "item_category_uid": "539",
+        "ITEM_category_id": "LED TUBES OEM",
+        "item_category_desc": "LED Tubes",
+        "parent_item_category_uid": "527",
+        "sequence_no": "2",
+        "display_on_web_flag": "Y",
+        "children": [{
+            "item_category_uid": "567",
+            "ITEM_category_id": "TYPE A - BALLAST COMPATIBLE",
+            "item_category_desc": "Type A - Ballast Compatible",
+            "parent_item_category_uid": "539",
+            "sequence_no": "1",
+            "display_on_web_flag": "Y",
+            "children": [{
+                "item_category_uid": "596",
+                "ITEM_category_id": "T5 & T8 OEM",
+                "item_category_desc": "T5 & T8",
+                "parent_item_category_uid": "567",
+                "sequence_no": "1",
+                "display_on_web_flag": "Y"
+            }]
+        }, {
+            "item_category_uid": "568",
+            "ITEM_category_id": "TYPE B - LINE VOLTAGE",
+            "item_category_desc": "Type B - Line Voltage",
+            "parent_item_category_uid": "539",
+            "sequence_no": "2",
+            "display_on_web_flag": "Y",
+            "children": [{
+                "item_category_uid": "597",
+                "ITEM_category_id": "T5 & T8 OEM V2",
+                "item_category_desc": "T5 & T8",
+                "parent_item_category_uid": "568",
+                "sequence_no": "1",
+                "display_on_web_flag": "Y"
+            }, {
+                "item_category_uid": "598",
+                "ITEM_category_id": "T8 DIMMABLE OEM",
+                "item_category_desc": "T8 Dimmable",
+                "parent_item_category_uid": "568",
+                "sequence_no": "2",
+                "display_on_web_flag": "Y"
+            }, {
+                "item_category_uid": "599",
+                "ITEM_category_id": "SIGN TUBES OEM",
+                "item_category_desc": "Sign Tubes",
+                "parent_item_category_uid": "568",
+                "sequence_no": "3",
+                "display_on_web_flag": "Y"
+            }, {
+                "item_category_uid": "600",
+                "ITEM_category_id": "ACCESSORIES OEM",
+                "item_category_desc": "Accessories",
+                "parent_item_category_uid": "568",
+                "sequence_no": "4",
+                "display_on_web_flag": "Y"
+            }]
+        }, {
+            "item_category_uid": "569",
+            "ITEM_category_id": "TYPE A & B - DUAL MODE",
+            "item_category_desc": "Type A & B - Dual Mode",
+            "parent_item_category_uid": "539",
+            "sequence_no": "3",
+            "display_on_web_flag": "Y",
+            "children": [{
+                "item_category_uid": "602",
+                "ITEM_category_id": "T8 OEM",
+                "item_category_desc": "T8",
+                "parent_item_category_uid": "569",
+                "sequence_no": "1",
+                "display_on_web_flag": "Y"
+            }]
+        }, {
+            "item_category_uid": "570",
+            "ITEM_category_id": "TYPE C - EXTERNAL DRIVER",
+            "item_category_desc": "Type C - External Driver",
+            "parent_item_category_uid": "539",
+            "sequence_no": "4",
+            "display_on_web_flag": "Y",
+            "children": [{
+                "item_category_uid": "603",
+                "ITEM_category_id": "T5 & T8 DIMMABLE OEM",
+                "item_category_desc": "T5 & T8 Dimmable",
+                "parent_item_category_uid": "570",
+                "sequence_no": "1",
+                "display_on_web_flag": "Y"
+            }]
+        }]
+    }, {
+        "item_category_uid": "541",
+        "ITEM_category_id": "LED HID REPLACEMENT LAMPS",
+        "item_category_desc": "LED HID Replacement Lamps",
+        "parent_item_category_uid": "527",
+        "sequence_no": "3",
+        "display_on_web_flag": "Y",
+        "children": [{
+            "item_category_uid": "571",
+            "ITEM_category_id": "OMNI-DIRECTIONAL OEM",
+            "item_category_desc": "Omni-Directional",
+            "parent_item_category_uid": "541",
+            "sequence_no": "1",
+            "display_on_web_flag": "Y",
+            "children": [{
+                "item_category_uid": "604",
+                "ITEM_category_id": "CORN COB OEM",
+                "item_category_desc": "Corn Cob",
+                "parent_item_category_uid": "571",
+                "sequence_no": "1",
+                "display_on_web_flag": "Y"
+            }, {
+                "item_category_uid": "605",
+                "ITEM_category_id": "COMMERCIAL GRADE A LAMP OEM",
+                "item_category_desc": "Commercial Grade A Lamp",
+                "parent_item_category_uid": "571",
+                "sequence_no": "2",
+                "display_on_web_flag": "Y"
+            }]
+        }, {
+            "item_category_uid": "572",
+            "ITEM_category_id": "DIRECTIONAL OEM",
+            "item_category_desc": "Directional",
+            "parent_item_category_uid": "541",
+            "sequence_no": "2",
+            "display_on_web_flag": "Y",
+            "children": [{
+                "item_category_uid": "606",
+                "ITEM_category_id": "HORIZONTAL OEM",
+                "item_category_desc": "Horizontal",
+                "parent_item_category_uid": "572",
+                "sequence_no": "1",
+                "display_on_web_flag": "Y"
+            }, {
+                "item_category_uid": "607",
+                "ITEM_category_id": "MULTI-DIRECTIONAL OEM",
+                "item_category_desc": "Multi-Directional",
+                "parent_item_category_uid": "572",
+                "sequence_no": "2",
+                "display_on_web_flag": "Y"
+            }, {
+                "item_category_uid": "608",
+                "ITEM_category_id": "VERTICAL OEM",
+                "item_category_desc": "Vertical",
+                "parent_item_category_uid": "572",
+                "sequence_no": "3",
+                "display_on_web_flag": "Y"
+            }]
+        }]
+    }, {
+        "item_category_uid": "542",
+        "ITEM_category_id": "COMPACT PIN BASE OEM",
+        "item_category_desc": "Compact Pin Base",
+        "parent_item_category_uid": "527",
+        "sequence_no": "4",
+        "display_on_web_flag": "Y",
+        "children": [{
+            "item_category_uid": "573",
+            "ITEM_category_id": "TYPE A - BALLAST COMPATIBLE OEM",
+            "item_category_desc": "Type A - Ballast Compatible",
+            "parent_item_category_uid": "542",
+            "sequence_no": "1",
+            "display_on_web_flag": "Y",
+            "children": [{
+                "item_category_uid": "609",
+                "ITEM_category_id": "DIRECTIONAL OEM V2",
+                "item_category_desc": "Directional",
+                "parent_item_category_uid": "573",
+                "sequence_no": "1",
+                "display_on_web_flag": "Y"
+            }]
+        }, {
+            "item_category_uid": "574",
+            "ITEM_category_id": "TYPE B - LINE VOLTAGE V2",
+            "item_category_desc": "Type B - Line Voltage",
+            "parent_item_category_uid": "542",
+            "sequence_no": "2",
+            "display_on_web_flag": "Y",
+            "children": [{
+                "item_category_uid": "610",
+                "ITEM_category_id": "DIRECTIONAL OEM V3",
+                "item_category_desc": "Directional",
+                "parent_item_category_uid": "574",
+                "sequence_no": "1",
+                "display_on_web_flag": "Y"
+            }, {
+                "item_category_uid": "611",
+                "ITEM_category_id": "OMNI-DIRECTIONAL OEM V2",
+                "item_category_desc": "Omni-Directional",
+                "parent_item_category_uid": "574",
+                "sequence_no": "2",
+                "display_on_web_flag": "Y"
+            }]
+        }]
+    }, {
+        "item_category_uid": "543",
+        "ITEM_category_id": "FLUORESCENT LAMPS OEM",
+        "item_category_desc": "Fluorescent Lamps",
+        "parent_item_category_uid": "527",
+        "sequence_no": "5",
+        "display_on_web_flag": "Y",
+        "children": [{
+            "item_category_uid": "575",
+            "ITEM_category_id": "LINEAR OEM V3",
+            "item_category_desc": "Linear",
+            "parent_item_category_uid": "543",
+            "sequence_no": "1",
+            "display_on_web_flag": "Y",
+            "children": [{
+                "item_category_uid": "612",
+                "ITEM_category_id": "T5, T8, T12, CIRCLINE OEM",
+                "item_category_desc": "T5, T8, T12, Circline",
+                "parent_item_category_uid": "575",
+                "sequence_no": "1",
+                "display_on_web_flag": "Y"
+            }]
+        }]
+    }]
+}, {
+    "item_category_uid": "26",
+    "ITEM_category_id": "LAMPS",
+    "item_category_desc": "Lamps",
+    "parent_item_category_uid": "5",
+    "sequence_no": "2",
+    "display_on_web_flag": "Y",
+    "children": [{
+        "item_category_uid": "84",
+        "ITEM_category_id": "COMPACT PIN BASE",
+        "item_category_desc": "Compact Pin Base",
+        "parent_item_category_uid": "26",
+        "sequence_no": "1",
+        "display_on_web_flag": "Y",
+        "children": [{
+            "item_category_uid": "370",
+            "ITEM_category_id": "TYPE B LINE VOLTAGE V2",
+            "item_category_desc": "Type B Line Voltage",
+            "parent_item_category_uid": "84",
+            "sequence_no": "1",
+            "display_on_web_flag": "Y",
+            "children": [{
+                "item_category_uid": "398",
+                "ITEM_category_id": "DIRECTIONAL V3",
+                "item_category_desc": "Directional",
+                "parent_item_category_uid": "370",
+                "sequence_no": "1",
+                "display_on_web_flag": "Y"
+            }, {
+                "item_category_uid": "399",
+                "ITEM_category_id": "OMNI-DIRECTIONAL V2",
+                "item_category_desc": "Omni-Directional",
+                "parent_item_category_uid": "370",
+                "sequence_no": "2",
+                "display_on_web_flag": "Y"
+            }]
+        }, {
+            "item_category_uid": "369",
+            "ITEM_category_id": "TYPE A BALLAST COMPATIBLE V2",
+            "item_category_desc": "Type A Ballast Compatible",
+            "parent_item_category_uid": "84",
+            "sequence_no": "2",
+            "display_on_web_flag": "Y",
+            "children": [{
+                "item_category_uid": "397",
+                "ITEM_category_id": "DIRECTIONAL V2",
+                "item_category_desc": "Directional",
+                "parent_item_category_uid": "369",
+                "sequence_no": "1",
+                "display_on_web_flag": "Y"
+            }]
+        }]
+    }, {
+        "item_category_uid": "85",
+        "ITEM_category_id": "FLUORESCENT LAMPS",
+        "item_category_desc": "Fluorescent Lamps",
+        "parent_item_category_uid": "26",
+        "sequence_no": "2",
+        "display_on_web_flag": "Y",
+        "children": [{
+            "item_category_uid": "371",
+            "ITEM_category_id": "LINEAR V3",
+            "item_category_desc": "Linear",
+            "parent_item_category_uid": "85",
+            "sequence_no": "1",
+            "display_on_web_flag": "Y",
+            "children": [{
+                "item_category_uid": "400",
+                "ITEM_category_id": "T5, T8, T12, CIRCLINE",
+                "item_category_desc": "T5, T8, T12, Circline",
+                "parent_item_category_uid": "371",
+                "sequence_no": "1",
+                "display_on_web_flag": "Y"
+            }]
+        }]
+    }, {
+        "item_category_uid": "83",
+        "ITEM_category_id": "GENERAL PURPOSE LED LAMPS",
+        "item_category_desc": "General Purpose LED Lamps",
+        "parent_item_category_uid": "26",
+        "sequence_no": "3",
+        "display_on_web_flag": "Y",
+        "children": [{
+            "item_category_uid": "364",
+            "ITEM_category_id": "A-SHAPE",
+            "item_category_desc": "A-Shape",
+            "parent_item_category_uid": "83",
+            "sequence_no": "1",
+            "display_on_web_flag": "Y",
+            "children": [{
+                "item_category_uid": "389",
+                "ITEM_category_id": "80 & 90 CRI MAINSTREAM",
+                "item_category_desc": "80 & 90 CRI Mainstream",
+                "parent_item_category_uid": "364",
+                "sequence_no": "1",
+                "display_on_web_flag": "Y"
+            }]
+        }, {
+            "item_category_uid": "365",
+            "ITEM_category_id": "BR",
+            "item_category_desc": "BR",
+            "parent_item_category_uid": "83",
+            "sequence_no": "2",
+            "display_on_web_flag": "Y",
+            "children": [{
+                "item_category_uid": "390",
+                "ITEM_category_id": "80 & 90 CRI MAINSTREAM V2",
+                "item_category_desc": "80 & 90 CRI Mainstream",
+                "parent_item_category_uid": "365",
+                "sequence_no": "1",
+                "display_on_web_flag": "Y"
+            }]
+        }, {
+            "item_category_uid": "368",
+            "ITEM_category_id": "DECORATIVE",
+            "item_category_desc": "Decorative",
+            "parent_item_category_uid": "83",
+            "sequence_no": "3",
+            "display_on_web_flag": "Y",
+            "children": [{
+                "item_category_uid": "393",
+                "ITEM_category_id": "A-SHAPE FILAMENT",
+                "item_category_desc": "A-Shape Filament",
+                "parent_item_category_uid": "368",
+                "sequence_no": "1",
+                "display_on_web_flag": "Y"
+            }, {
+                "item_category_uid": "394",
+                "ITEM_category_id": "CHANDELIER FILAMENT",
+                "item_category_desc": "Chandelier Filament",
+                "parent_item_category_uid": "368",
+                "sequence_no": "2",
+                "display_on_web_flag": "Y"
+            }, {
+                "item_category_uid": "395",
+                "ITEM_category_id": "EDISON SHAPE FILAMENT",
+                "item_category_desc": "Edison Shape Filament",
+                "parent_item_category_uid": "368",
+                "sequence_no": "3",
+                "display_on_web_flag": "Y"
+            }, {
+                "item_category_uid": "396",
+                "ITEM_category_id": "GLOBE FILAMENT",
+                "item_category_desc": "Globe Filament",
+                "parent_item_category_uid": "368",
+                "sequence_no": "4",
+                "display_on_web_flag": "Y"
+            }]
+        }, {
+            "item_category_uid": "366",
+            "ITEM_category_id": "PAR V2",
+            "item_category_desc": "PAR",
+            "parent_item_category_uid": "83",
+            "sequence_no": "4",
+            "display_on_web_flag": "Y",
+            "children": [{
+                "item_category_uid": "391",
+                "ITEM_category_id": "80 & 90 CRI MAINSTREAM V3",
+                "item_category_desc": "80 & 90 CRI Mainstream",
+                "parent_item_category_uid": "366",
+                "sequence_no": "1",
+                "display_on_web_flag": "Y"
+            }]
+        }, {
+            "item_category_uid": "367",
+            "ITEM_category_id": "SPOTLIGHT",
+            "item_category_desc": "Spotlight",
+            "parent_item_category_uid": "83",
+            "sequence_no": "5",
+            "display_on_web_flag": "Y",
+            "children": [{
+                "item_category_uid": "392",
+                "ITEM_category_id": "80 & 90 CRI MAINSTREAM V4",
+                "item_category_desc": "80 & 90 CRI Mainstream",
+                "parent_item_category_uid": "367",
+                "sequence_no": "1",
+                "display_on_web_flag": "Y"
+            }]
+        }]
+    }, {
+        "item_category_uid": "82",
+        "ITEM_category_id": "HID LED REPLACEMENT LAMPS",
+        "item_category_desc": "HID LED Replacement Lamps",
+        "parent_item_category_uid": "26",
+        "sequence_no": "4",
+        "display_on_web_flag": "Y",
+        "children": [{
+            "item_category_uid": "362",
+            "ITEM_category_id": "ACCESSORIES V5",
+            "item_category_desc": "Accessories",
+            "parent_item_category_uid": "82",
+            "sequence_no": "1",
+            "display_on_web_flag": "Y",
+            "children": [{
+                "item_category_uid": "388",
+                "ITEM_category_id": "ACCESSORIES V7",
+                "item_category_desc": "Accessories",
+                "parent_item_category_uid": "362",
+                "sequence_no": "1",
+                "display_on_web_flag": "Y"
+            }]
+        }, {
+            "item_category_uid": "360",
+            "ITEM_category_id": "DIRECTIONAL",
+            "item_category_desc": "Directional",
+            "parent_item_category_uid": "82",
+            "sequence_no": "2",
+            "display_on_web_flag": "Y",
+            "children": [{
+                "item_category_uid": "384",
+                "ITEM_category_id": "HORIZONTAL",
+                "item_category_desc": "Horizontal",
+                "parent_item_category_uid": "360",
+                "sequence_no": "1",
+                "display_on_web_flag": "Y"
+            }, {
+                "item_category_uid": "385",
+                "ITEM_category_id": "MULIT-DIRECTIONAL",
+                "item_category_desc": "Mulit-Directional",
+                "parent_item_category_uid": "360",
+                "sequence_no": "2",
+                "display_on_web_flag": "Y"
+            }, {
+                "item_category_uid": "386",
+                "ITEM_category_id": "VERTICAL",
+                "item_category_desc": "Vertical",
+                "parent_item_category_uid": "360",
+                "sequence_no": "3",
+                "display_on_web_flag": "Y"
+            }]
+        }, {
+            "item_category_uid": "359",
+            "ITEM_category_id": "OMNI-DIRECTIONAL",
+            "item_category_desc": "Omni-Directional",
+            "parent_item_category_uid": "82",
+            "sequence_no": "3",
+            "display_on_web_flag": "Y",
+            "children": [{
+                "item_category_uid": "382",
+                "ITEM_category_id": "COMMERCIAL GRADE A LAMP",
+                "item_category_desc": "Commercial Grade A Lamp",
+                "parent_item_category_uid": "359",
+                "sequence_no": "1",
+                "display_on_web_flag": "Y"
+            }, {
+                "item_category_uid": "381",
+                "ITEM_category_id": "CORN COB",
+                "item_category_desc": "Corn Cob",
+                "parent_item_category_uid": "359",
+                "sequence_no": "2",
+                "display_on_web_flag": "Y"
+            }]
+        }, {
+            "item_category_uid": "361",
+            "ITEM_category_id": "PAR",
+            "item_category_desc": "Par",
+            "parent_item_category_uid": "82",
+            "sequence_no": "4",
+            "display_on_web_flag": "Y",
+            "children": [{
+                "item_category_uid": "387",
+                "ITEM_category_id": "COMMERCIAL GRADE",
+                "item_category_desc": "Commercial Grade",
+                "parent_item_category_uid": "361",
+                "sequence_no": "1",
+                "display_on_web_flag": "Y"
+            }]
+        }]
+    }, {
+        "item_category_uid": "6",
+        "ITEM_category_id": "LED TUBES",
+        "item_category_desc": "LED Tubes",
+        "parent_item_category_uid": "26",
+        "sequence_no": "5",
+        "display_on_web_flag": "Y",
+        "children": [{
+            "item_category_uid": "357",
+            "ITEM_category_id": "TYPE A & B DUAL MODE",
+            "item_category_desc": "Type A & B Line Voltage or Ballast Compatible",
+            "parent_item_category_uid": "6",
+            "sequence_no": "1",
+            "display_on_web_flag": "Y",
+            "children": [{
+                "item_category_uid": "379",
+                "ITEM_category_id": "T8",
+                "item_category_desc": "T8",
+                "parent_item_category_uid": "357",
+                "sequence_no": "1",
+                "display_on_web_flag": "Y"
+            }]
+        }, {
+            "item_category_uid": "353",
+            "ITEM_category_id": "TYPE A BALLAST COMPATIBLE",
+            "item_category_desc": "Type A Ballast Compatible",
+            "parent_item_category_uid": "6",
+            "sequence_no": "2",
+            "display_on_web_flag": "Y",
+            "children": [{
+                "item_category_uid": "373",
+                "ITEM_category_id": "T5 & T8",
+                "item_category_desc": "T5 & T8",
+                "parent_item_category_uid": "353",
+                "sequence_no": "1",
+                "display_on_web_flag": "Y"
+            }]
+        }, {
+            "item_category_uid": "355",
+            "ITEM_category_id": "TYPE B LINE VOLTAGE",
+            "item_category_desc": "Type B Line Voltage",
+            "parent_item_category_uid": "6",
+            "sequence_no": "3",
+            "display_on_web_flag": "Y",
+            "children": [{
+                "item_category_uid": "377",
+                "ITEM_category_id": "ACCESSORIES V6",
+                "item_category_desc": "Accessories",
+                "parent_item_category_uid": "355",
+                "sequence_no": "1",
+                "display_on_web_flag": "Y"
+            }, {
+                "item_category_uid": "376",
+                "ITEM_category_id": "SIGN TUBES",
+                "item_category_desc": "Sign Tubes",
+                "parent_item_category_uid": "355",
+                "sequence_no": "2",
+                "display_on_web_flag": "Y"
+            }, {
+                "item_category_uid": "375",
+                "ITEM_category_id": "T8 DIMMABLE",
+                "item_category_desc": "T8 Dimmable",
+                "parent_item_category_uid": "355",
+                "sequence_no": "3",
+                "display_on_web_flag": "Y"
+            }, {
+                "item_category_uid": "374",
+                "ITEM_category_id": "T5 & T8 V2",
+                "item_category_desc": "T5 & T8",
+                "parent_item_category_uid": "355",
+                "sequence_no": "4",
+                "display_on_web_flag": "Y"
+            }]
+        }, {
+            "item_category_uid": "358",
+            "ITEM_category_id": "TYPE C EXTERNAL DRIVER",
+            "item_category_desc": "Type C External Driver",
+            "parent_item_category_uid": "6",
+            "sequence_no": "4",
+            "display_on_web_flag": "Y",
+            "children": [{
+                "item_category_uid": "380",
+                "ITEM_category_id": "T5 & T8 DIMMABLE",
+                "item_category_desc": "T5 & T8 Dimmable",
+                "parent_item_category_uid": "358",
+                "sequence_no": "1",
+                "display_on_web_flag": "Y"
+            }]
+        }]
+    }, {
+        "item_category_uid": "86",
+        "ITEM_category_id": "ULTRAVIOLET GERMICIDAL",
+        "item_category_desc": "Ultraviolet Germicidal",
+        "parent_item_category_uid": "26",
+        "sequence_no": "6",
+        "display_on_web_flag": "Y",
+        "children": [{
+            "item_category_uid": "372",
+            "ITEM_category_id": "LAMPS V2",
+            "item_category_desc": "Lamps",
+            "parent_item_category_uid": "86",
+            "sequence_no": "1",
+            "display_on_web_flag": "Y",
+            "children": [{
+                "item_category_uid": "401",
+                "ITEM_category_id": "LINEAR & COMPACT",
+                "item_category_desc": "Linear & Compact",
+                "parent_item_category_uid": "372",
+                "sequence_no": "1",
+                "display_on_web_flag": "Y"
+            }]
+        }]
+    }]
+}]
